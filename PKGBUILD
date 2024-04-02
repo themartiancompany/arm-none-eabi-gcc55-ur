@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: AGPL-3.0
+# 
+# Maintainer: Truocolo <truocolo@aol.com>
 # Maintainer: Pellegrino Prevete < pellegrinoprevete at gmail dot com >
 # Contributor: Georgios Kourachanis < geo dot kourachanis at gmail dot com >
 # Contributor: Anatol Pomozov < anatol dot pomozov at gmail dot com > (arm-none-eabi-gcc)
@@ -205,3 +208,5 @@ package() {
   rm -r "$pkgdir"/usr/share/info
   rm "$pkgdir"/usr/lib/libcc1.*
 }
+
+# vim:set sw=2 sts=-1 et:
